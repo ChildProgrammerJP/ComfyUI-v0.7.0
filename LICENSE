@@ -9,8 +9,22 @@ Comfy-Org/ComfyUI
 https://github.com/Comfy-Org/ComfyUI
 
 Here are the changes by ChildProgrammer
+comfy_api_nodes：
+As a countermeasure for errors such as 
+-
+IMPORT FAILED: nodes_ideogram.py
+IMPORT FAILED: nodes_openai.py
+IMPORT FAILED: nodes_bytedance.py
+IMPORT FAILED: nodes_ltxv.py
+IMPORT FAILED: nodes_luma.py
+IMPORT FAILED: nodes_recraft.py
+IMPORT FAILED: nodes_pixverse.py
+IMPORT FAILED: nodes_sora.py
+-
+occurring when launching ComfyUI, the relevant file within the comfy_api_nodes folder of ComfyUI v0.8.2 as of January 11, 2026, has been added.
+
 nodes.py：
-Row 2149: Modified to prevent errors when custom node files are not found
+Row 2149: Modified to prevent errors when custom node files are not found.
 
 requirements.txt：
 Fine-tuned dependencies.
