@@ -9,6 +9,9 @@ Comfy-Org/ComfyUI
 https://github.com/Comfy-Org/ComfyUI
 
 Here are the changes by ChildProgrammer
+nodes.py：
+Row 2149: Modified to prevent errors when custom node files are not found
+
 requirements.txt：
 Fine-tuned dependencies.
 
